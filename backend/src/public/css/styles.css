@@ -1,0 +1,13 @@
+/* Estilos CSS externos */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue; /* Estilo movido do estilo inline */
+}
+
+p {
+    font-size: 16px; /* Estilo movido do estilo inline */
+}
