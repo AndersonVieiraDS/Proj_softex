@@ -14,7 +14,6 @@ export const createUser = async (req: Request, res: Response) => {
             senha,
             status,
             tipo_usuario,
-            criado_por: 0
         });
 
         res.status(201).json({ id });

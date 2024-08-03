@@ -9,12 +9,8 @@ export interface User {
   email: string;
   login: string;
   senha: string;
-  criado_por: number;
   criado_em?: Date;
   atualizado_em?: Date;
-  atualizado_por?: number;
-  excluido_em?: Date;
-  excluido_por?: number;
 }
 
 const createUser = async (user: User): Promise<number[]> => {
